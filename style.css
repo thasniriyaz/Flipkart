@@ -1,0 +1,128 @@
+.container
+{
+    background-color: whitesmoke;
+}
+.header{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    
+    padding: 10px;
+    
+}
+#images
+{
+    height:20px;
+    width:20px
+
+}
+.cursor
+{
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+   
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+.dropdown {
+    position: relative;
+    display: inline-block;
+    border-radius:5px
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 20px 36px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    border-radius: 20px;
+    font: 13px sans-serif;
+    
+    
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .menu
+  {
+     
+    cursor: pointer;
+    height:150px;
+    margin-top: 100px;
+    background-color: white;
+  }
+  #wdth
+  {
+    width:10%;
+    font-family: sans-serif ;
+    font-weight:200;
+    font-size: 14px;
+  }
+  .banner
+  {
+    margin-top: 20px;
+    background-color: white;
+    cursor: pointer;
+  }
+  .electric
+  {
+    width:50%;
+    height:250px;
+    margin-top: 50px;
+  }
+  .electric1
+  {
+    width:10%;
+  }
+ 
+  #best
+  {
+    margin-top: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight:500;
+    cursor:pointer;
+  }
+  .zoom {
+    padding: 50px;
+    
+    transition: transform .2s;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+  .tbletd
+  {
+    font-family: Arial, Helvetica, sans-serif;
+    border: thin solid wheat;
+    
+    border-radius: 5px
+  }
+  .tble
+  {
+    width:80% ;
+    height:200px;
+    padding:20px
+  }
